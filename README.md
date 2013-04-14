@@ -1,4 +1,20 @@
-bolts
-=====
+Storm Bar Bolts
+===============
 
-a collection of public bolts installable by name
+This repo houses a collection of public Bolts, they are all installable by name.
+
+`bolt install google`
+
+
+Writing A Bolt
+---------------
+
+See: http://stormbar.net/bolts.html for documentation in the Bolt API.
+
+Beyond that this repo enforces a few standards to keep things sane. All Bolts...
+
+- are placed in a folder using the bolt name
+- are written in CoffeeScript
+- are named in lowercase with hyphens e.g. `something-magic`
+- have an entry file named `[bolt-name].bolt.coffee`
+- have their Homepage set to a `README.md` file in their folder
