@@ -18,7 +18,9 @@ In production Bolts are loaded directly from github but you can run a local serv
     # run the server
     grunt connect
 
-You should use this alongside a local development version of Storm Bar for testing.
+You should use this alongside a local development version of Storm Bar for testing. Once both are running you can install local dev Bolts with...
+
+    bolt install dev/my-bolt-name
 
 
 Writing A Bolt
