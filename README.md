@@ -3,7 +3,22 @@ Storm Bar Bolts
 
 This repo houses a collection of public Bolts, they are all installable by name.
 
-`bolt install google`
+    bolt install google
+
+
+Running Locally for Development
+-------------------------------
+
+In production Bolts are loaded directly from github but you can run a local server for testing...
+
+    # install libs
+    npm install -g grunt-cli
+    npm install
+
+    # run the server
+    grunt connect
+
+You should use this alongside a local development version of Storm Bar for testing.
 
 
 Writing A Bolt
